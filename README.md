@@ -13,7 +13,13 @@ kv {
 	}
 ```
 
-Tulemus on
+Tulemus on:
+![kv_plugin](https://user-images.githubusercontent.com/34548027/34842299-c4743bba-f713-11e7-9988-d6c0b6b95065.png)
+
+Tekivad field-id aga puudulikud, nt
+Isegi ku mul on CSV failis TAGS headi all olemas ka *cve:CVE-2018-0111;* väärtus siis loob ainult *cve:CVE-2014-0160;* põhjal field-i - miks just selle põhjal, ei tea ning miks teisest ei loo ka fieldi siis vist *kv* ei ole võimeline üksinda rohkemaks.
+
+Lisaks ei loe CSV-st key välju nagu *contentms:...;* ja *contentms.ver:...*- miks? ei tea...
 
 
 ## Lahendus 2
@@ -33,3 +39,8 @@ Tulemus on:
 Ei tekita eraldi field'i aga on otsitav ja saab luua pirukaid jne, nt:
 
 ![json_tulemus](https://user-images.githubusercontent.com/34548027/34842097-1ebe5bd8-f713-11e7-85ce-efb64796c348.png)
+
+## Kokkuvõttes
+
+Kui ei ole vaja, et tekiksid *field-id* siis võib vabalt kasutada *json* pluginat. 
+
