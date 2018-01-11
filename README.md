@@ -14,6 +14,7 @@ kv {
 ```
 
 Tulemus on:
+
 ![kv_plugin](https://user-images.githubusercontent.com/34548027/34842299-c4743bba-f713-11e7-9988-d6c0b6b95065.png)
 
 Tekivad field-id aga puudulikud, nt
@@ -34,6 +35,7 @@ json {
 ```
 
 Tulemus on:
+
 ![plugin_json](https://user-images.githubusercontent.com/34548027/34842016-e046c2fa-f712-11e7-919a-bcba1d645085.png)
 
 Ei tekita eraldi field'i aga on otsitav ja saab luua pirukaid jne, nt:
